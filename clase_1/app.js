@@ -1,10 +1,47 @@
+// Window object
+
+// window.alert('Hola Mundo');
+
+// Prompt para obtener valores de entrada del usuario o cliente
+// var val = prompt();
+
+// Para mostrar alguna variable en nuestra pagina web
+// alert(val);
+
+
+// Do While
+
+// var i = 0;
+// do {
+//   console.log(i);
+//   i++
+// } while(i<10);
+
+// While loop
+
+// var i = 0;
+// while(i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// For loop
+// var arreglo = ["TEst", false, 2, 3, 5]
+//
+// for (var i = 0; i < arreglo.length; i++) {
+//   console.log(arreglo[i]);
+//   if (i == 2) {
+//     console.log('Es la posicion 3');
+//   }
+// }
+
 // Functions
-function saludo(name= "Omar", apellido="Montalvo") {
-  return 'Hello '+name+' '+apellido;
-}
-
-
-console.log(saludo());
+// function saludo(name= "Omar", apellido="Montalvo") {
+//   return 'Hello '+name+' '+apellido;
+// }
+//
+//
+// console.log(saludo());
 
 // switch
 
