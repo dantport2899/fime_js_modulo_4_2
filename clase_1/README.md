@@ -28,5 +28,5 @@ Realizar los siguientes 2 problemas de hackerrank:
 
 
 <p align="center">
-  <img src="assets/img/happycoding.png">
+  <img src="../assets/img/happycoding.png">
 </p>
