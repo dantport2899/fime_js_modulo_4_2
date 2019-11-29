@@ -6,4 +6,4 @@ Cada carpeta contiene sus indicaciones de que debe contener y ejemplos.
 Cualquier duda consulte con su maestro.
 
 
-![enter image description here](assets/img/fimebearlogo.png)
+![enter image description here](assets/img/fimebearlogo.jpg)
