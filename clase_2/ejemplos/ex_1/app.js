@@ -1,6 +1,14 @@
 // Document
 var val;
+val = document.querySelectorAll('li');
 
+for (var i = 0; i < val.length; i++) {
+  console.log(val[i]);
+  val[i].innerHTML = "Elemento "+i
+  val[i].style.color = 'red';
+}
+
+console.log(val);
 
 // val = document.querySelectorAll('li:nth-child(odd)')
 // val = document.querySelectorAll('p');
@@ -29,7 +37,7 @@ var val;
 // // Busqueda por id
 // val = document.querySelector('#titulo');
 
-console.log(val);
+// console.log(val);
 
 
 
