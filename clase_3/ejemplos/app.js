@@ -1,3 +1,36 @@
+var list = document.querySelector('ul');
+var listItems = document.querySelector('li');
+var test;
+
+
+// Obtener elementos children(HIJOS)
+test = list.children;
+// test[1].innerText = 'Segundo Elemento';
+for (var i = 0; i < test.length; i++) {
+  test[i].innerText = `${test[i].innerText} ${i+1}`;
+}
+
+// El primer elemento hijo de ul
+test = list.firstElementChild;
+test.style.color = "blue";
+
+// EL ultimo elemento hijo de ul
+test = list.lastElementChild;
+test.style.color = "red";
+
+// Contar elementos de ul
+test = list.childElementCount;
+
+// Padres de un elemento
+test = listItems.parentElement.parentElement;
+test.style.padding = "30px";
+
+
+
+
+
+
+console.log(test);
 
 
 // var impar = document.querySelectorAll('li:nth-child(odd)');
