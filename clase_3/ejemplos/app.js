@@ -1,17 +1,96 @@
+
+
+// Eliminar los elementos.
+var ul = document.querySelector('ul');
+ul.remove();
+
+// Remplazar elementos
+
+var li = document.querySelector('li:nth-child(3)');
+var ul = document.querySelector('ul');
+
+var newElement = document.createElement('img');
+newElement.src = 'https://picsum.photos/100/100';
+
+ul.replaceChild(newElement, li)
+
+
+// var li = document.querySelectorAll('.listData');
+// var ul = document.querySelector('ul');
+//
+// for (var i = 0; i < li.length; i++) {
+//   var newElement = document.createElement('img');
+//   newElement.src = 'https://picsum.photos/100/100';
+//   ul.replaceChild(newElement, li[i])
+// }
+
+
+
+
+
+// elemento nuevo
+var parrafo = document.createElement('p');
+parrafo.innerHTML = '<b>REMPLAZAR</b> Elemento';
+
+// elemento a remplazar
+var titulo2 = document.getElementById('titulo2');
+// padre del elemento a remplazar
+var padre = document.querySelector('body');
+
+// remplazando elementos
+padre.replaceChild(parrafo, titulo2);
+
+// Para comentar líneas de código usear ctrl+shift+/  /(7)
+// // Crear imagen
+// var img = document.createElement('img');
+// // Para usar imagenes de prueba utilizar https://picsum.photos/
+// // dentro de la página esta la url que pueden utilizar como ejemplo
+// img.src = 'https://picsum.photos/500/300';
+// console.log(img);
+// document.querySelector('body').appendChild(img);
+//
+// // Crear elemento
+// var link = document.createElement('a');
+// link.className = 'link';
+// link.innerText = 'Go to goole';
+// link.href = 'https://www.google.com';
+//
+// document.querySelector('body').prepend(link);
+//
+//
+// // Create Elements
+// var item = document.createElement('li');
+// item.className = 'item text-center';
+// item.id = 'new-item';
+// item.innerText = 'Elemento Nuevo';
+//
+// document.querySelector('ul').appendChild(item);
+//
+//
+// // Crear elemento
+// var titulo = document.createElement('h3');
+// titulo.className = 'titulo';
+// titulo.id = 'titulo4';
+// titulo.innerHTML = "<span style='color:red;'>Hola</span> Mundo";
+// // insertar al final
+// document.querySelector('.container').appendChild(titulo);
+// // insertar al principio
+// document.querySelector('.container').prepend(titulo);
+//
 // Movernos en el DOM hermanos
-var contenedor = document.querySelector('div');
-
-contenedor.nextElementSibling.style['border-style'] = "solid";
-contenedor.nextElementSibling.style['padding'] = "10px";
-contenedor.nextElementSibling.style['margin'] = "10px";
-
-
-var contenedor = document.querySelector('div');
-
-
-contenedor.previousElementSibling.style['border-style'] = "dotted";
-contenedor.previousElementSibling.style['padding'] = "10px";
-contenedor.previousElementSibling.style['margin'] = "10px";
+// var contenedor = document.querySelector('div');
+//
+// contenedor.nextElementSibling.style['border-style'] = "solid";
+// contenedor.nextElementSibling.style['padding'] = "10px";
+// contenedor.nextElementSibling.style['margin'] = "10px";
+//
+//
+// var contenedor = document.querySelector('div');
+//
+//
+// contenedor.previousElementSibling.style['border-style'] = "dotted";
+// contenedor.previousElementSibling.style['padding'] = "10px";
+// contenedor.previousElementSibling.style['margin'] = "10px";
 
 
 
