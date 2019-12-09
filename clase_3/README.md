@@ -35,6 +35,7 @@ Utilizando de base el archivo base_ejercicio_4.html realizar lo siguiente:
 - Estudiar para exámen de tinycards las urls enviadas en el grupo.
 - Realizar su proyecto final.
 
+
 <p align="center">
   <img src="../assets/img/catcoding.gif">
 </p>
