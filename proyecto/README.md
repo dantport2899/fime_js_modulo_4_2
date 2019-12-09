@@ -16,3 +16,7 @@
 - Código. (indentación y nombre de variables)
 - Que el contenido antes mencionado se cumpla.
 - Comentarios explicando que se hizo y como funciona.
+
+<p align="center">
+  <img src="../assets/img/dogcoding.gif">
+</p>
