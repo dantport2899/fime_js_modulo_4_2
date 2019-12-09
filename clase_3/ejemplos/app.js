@@ -4,17 +4,20 @@
 var ul = document.querySelector('ul');
 ul.remove();
 
+
 // Remplazar elementos
-
+// elemento a reemplazar
 var li = document.querySelector('li:nth-child(3)');
+// padre del elemento a reemplazar
 var ul = document.querySelector('ul');
-
+// nuevo elemento
 var newElement = document.createElement('img');
 newElement.src = 'https://picsum.photos/100/100';
-
+// reemplazando elemento
 ul.replaceChild(newElement, li)
 
 
+// Reemplazando multiples elementos
 // var li = document.querySelectorAll('.listData');
 // var ul = document.querySelector('ul');
 //
