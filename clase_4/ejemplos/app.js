@@ -1,15 +1,22 @@
+// window.onload = "alCargar()";
+
+// function alCargar() {
+//   console.log('test');
+//   var value = prompt('Valor');
+//   document.write(value);
+// }
+
+
 // Eventos
-
-var boton = document.querySelector('.btn');
-
-boton.addEventListener('click', changeTitle);
-
-function changeTitle() {
-  var titleInput = document.querySelector('#title').value;
-  document.querySelector('h1').innerText = titleInput;
-}
-
-
+//
+// var boton = document.querySelector('.btn');
+//
+// boton.addEventListener('click', changeTitle);
+//
+// function changeTitle() {
+//   var titleInput = document.querySelector('#title').value;
+//   document.querySelector('h1').innerText = titleInput;
+// }
 
 // Listado de eventos: https://www.w3schools.com/jsref/dom_obj_event.asp
 
